@@ -1,0 +1,525 @@
+body{
+  margin: 0;
+}
+.wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 헤더 */
+.header_bg{
+  height: 161px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.header{
+  width: 1250px;
+  height: 161px;
+  background-color: white;
+  display: flex;
+  position: relative;
+}
+.search_area{
+  width: 800px;
+  height: 68px;
+  position: absolute;
+  display: flex;
+  left: 48px;
+  top: 50px;
+}
+.search_btn{
+  height: 56px;
+  width: 56px;
+  margin-top: 5px;
+  background-color:rgb(18, 196, 18) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search{
+  height: 50px;
+  width: 480px;
+  margin-top: 5px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  border: 3px solid rgb(18, 196, 18);
+}
+.input{
+  width: 400px;
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+#keyboard, #history{
+  margin-left: 10px;
+}
+.another_area{
+  width: 300px;
+  height: 30px;
+  position: absolute;
+  right: 48px;
+  top: 0px;
+  display: flex;
+}
+.another_area p{
+  font-size: 13px;
+  margin-right: 12px;
+}
+.service_bg{
+  width: 100%;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+}
+.service{
+  width: 1130px;
+  height: 52px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.service a{
+  text-decoration-line: none;
+  margin-left: 10px;
+  color: black;
+}
+.service_green a{
+  color: rgb(18, 196, 18);
+}
+.weather{
+  position: absolute;
+  right: 0px;
+  display: flex;
+  align-items: center;
+}
+hr{
+  width: 100%;
+  height: 1px;
+  background-color: rgb(226, 226, 226);
+  margin: 0;
+  border: 0;
+}
+/* 내용 */
+.container{
+  width: 1130px;
+  height: 2000px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+/* 아티클 */ 
+.article{
+  width: 750px;
+  height: 2100px;
+}
+#article_ad{
+  width: 750px;
+  height: 129px;
+  margin-bottom: 10px;
+}
+.onenews{
+  width: 742px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: rgb(250, 250, 250);
+  margin-bottom: 10px;
+}
+.news_stand{
+  margin-bottom: 8px; 
+}
+.allnews{
+  width: 750px;
+  height: 262px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.news{
+  width: 123px;
+  height: 63.8px;
+  border: 1px solid rgb(221, 221, 221);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.today_article{
+  margin-bottom: 10px;
+}
+.today_article_tab{
+  width: 750px;
+  height: 49px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 14px;
+}
+.item{
+  border: 1px solid rgb(221, 221, 221);
+  width: 94px;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.webtoon{
+  width: 750px;
+  height: 330px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+#webtoon_tab{
+  background-color: rgb(18, 196, 18);
+}
+.left_webtoon{
+  width: 364px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+}
+.left_webtoon p{
+  margin: 0px;
+  margin-top: 5px;
+}
+.right_webtoon{
+  width: 364px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.webtoon_view{
+  width: 364px;
+  height: 98px;
+  display: flex;
+}
+.webtoon_text{
+  display: flex;
+  flex-direction: column;
+  justify-items: baseline;
+}
+.webtoon_view p{
+  margin: 0;margin-left: 10px;
+}
+.webtoon_home{
+  border: 1px solid rgb(219, 219, 219);
+  background-color: rgb(250, 250, 250);
+  width: 742px;
+  height: 49px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 8px;
+}
+.rank{
+  margin-bottom: 10px;
+}
+.rank_webtoon{
+  width: 750px;
+  height: 300px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+}
+.rank_item{
+  display: flex;
+  width: 350px;
+  height: 53px;
+}
+.rank_item p{
+  margin: 0;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.article hr{
+  width: 750px;
+  height: 1px;
+  background-color: rgb(226, 226, 226);
+  margin: 0;
+  margin-bottom: 10px;
+  border: 0;
+}
+.reco_webtoon{
+  width: 750px;
+  height: 580px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.reco_items{
+  width: 232px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.reco_items p{
+  margin: 0;
+  font-size: 14px;
+}
+/* 사이드 */
+.side{
+  width: 350px;
+  height: 2100px;
+  display: flex;
+  flex-direction: column;
+}
+.login{
+  width: 350px;
+  height: 135px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: rgb(250, 250, 250);
+}
+.login_btn{
+  width: 314px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(18, 196, 18);
+}
+.login p{
+  font-size: 12px;
+  color: rgb(158, 158, 158);
+}
+#login_p{
+  color: white;
+  font-size: 20px;
+}
+.stock{
+  width: 342px;
+  height: 47px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  border: 1px solid rgb(207, 207, 207);
+  background-color: rgb(252, 252, 252);
+}
+#side_ad{
+  margin-bottom: 10px;
+}
+.trend{
+  width: 350px;
+  height: 1565px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(207, 207, 207);
+}
+.shop_name{
+  width: 350px;
+  height: 70px;
+  display: flex;
+  border: 1px solid rgb(207, 207, 207);
+  background-color: rgb(252, 252, 252);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shop_name p{
+  margin: 0;
+  font-size: 14px;
+  color: rgb(133, 133, 133);
+}
+.shop_item{
+  width: 350px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+}
+.shop_item{
+  display: flex;
+  flex-direction: column;
+}
+.items{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.items.shop{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.items p{
+  margin: 0;
+  font-size: 14px;
+}
+.shop_news{
+  width: 350px;
+  height: 242px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-around;
+}
+.shop_news p{
+  margin: 2px;
+  font-size: 14px;
+}
+.shop_life{
+  width: 350px;
+  height: 262px;
+  display: flex;
+  flex-direction: column;
+}
+.life_flex{
+  display: flex;
+  justify-content: space-around;
+}
+.life_item{
+  width: 163px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.life_item p{
+  margin: 0;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.shop_delivery{
+  width: 350px;
+  height: 262px;
+  display: flex;
+  flex-direction: column;
+}
+.deliver_text{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+.deliver_p{
+  padding-top: 10px;
+}
+.deliver_text p{
+  margin: 0;
+  font-size: 14px;
+}
+.page_up{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+/* 하단 */
+.footer_bg{
+  background-color: rgb(250, 250, 250);
+  width: 100%;
+  height: 424px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  width: 1130px;
+  height: 424px;
+  display: flex;
+  flex-direction: column;
+}
+.footer hr{
+  width: 1130px;
+  height: 1px;
+  background-color: rgb(226, 226, 226);
+  margin: 0;
+  border: 0;
+}
+.footer_ad{
+  width: 1130px;
+  height: 135px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_notice{
+  width: 1130px;
+  height: 48px;
+  display: flex;
+}
+.footer_developer{
+  width: 1130px;
+  height: 106px;
+  display: flex;
+  flex-direction: row;
+}
+.footer_introduce{
+  width: 1130px;
+  height: 41px;
+  display: flex;
+}
+.footer_ad div{
+  width: 350px;
+  height: 86px;
+  display: flex;
+}
+.add_text{
+  display: flex;
+  flex-direction: column;
+}
+.footer_ad p{
+  margin: 0;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.left_developer{
+  width: 780px;
+  height: 106px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.left_developer p{
+  margin: 0;
+}
+.right_developer{
+  width: 350px;
+  height: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left_developer div{
+  width: 778px;
+  height: 16px;
+  border: 1px solid black;
+}
+.right_developer div{
+  width: 150px;
+  height: 48px;
+}
+.right_developer p{
+  font-size: 14px;
+  margin: 0;
+}
+.whale{
+  display: flex;
+}
+.flower{
+  display: flex;
+}
+
